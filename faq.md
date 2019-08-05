@@ -1,9 +1,13 @@
 
 ## Things I'm commonly asked about
+- **Tell me a little bit about what it's like working with you**
 
- - **What if I prefer talking and finding these things out for myself?**
+See my [user guide](user_guide.md)!
+
+
+- **What if I prefer talking and finding these things out for myself?**
  
- Not a problem at all. This information is here for convenience rather than to eliminate conversation. Feel free to contact me if you'd like to connect or have any questions for me, whether or not they're been answered here.
+Not a problem at all. This information is here for convenience rather than to eliminate conversation. Feel free to contact me if you'd like to connect or have any questions for me, whether or not they're been answered here.
  
  
 - **What is your professional background?**
@@ -51,11 +55,6 @@ Otherwise, I don't do referrals, but I'd be happy to answer your questions about
 - **Why did you leave `<company name here>`**?
 
 For one reason or other, the role wasn't going to work for me going forward. I have nothing negative to say about any former employers and am grateful for the opportunities they provided. If you have more specific questions about a particular company, feel free to contact me.
-
-
-- **Your duration at some of the roles on your resume is low. If I hire you, can I count on you sticking around for a while?**
-
-Yes, as long as it is a mutually good fit. Reasons I might not consider it a good fit on my end include lack of room for growth, toxic culture, and the role not being what was advertised when I accepted the position. For example, if I accept a position as a Software Engineer and, once I get there, I find out the role is more like QA, it probably won't fit my long-term goals.
 
 
 - **Are you only interested in full-time roles, or are you open to contracts?**
