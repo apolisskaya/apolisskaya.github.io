@@ -4,10 +4,6 @@
 
 See my [user guide](user_guide.md)!
 
-
-- **What if I prefer talking and finding these things out for myself?**
- 
-Not a problem at all. This information is here for convenience rather than to eliminate conversation. Feel free to contact me if you'd like to connect or have any questions for me, whether or not they're been answered here.
  
  
 - **What is your professional background?**
