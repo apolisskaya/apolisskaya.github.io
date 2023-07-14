@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 200px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // Function to type 'Hello World' on the screen
+        function typeHelloWorld() {
+            const text = 'Alla Spears';
+            let index = 0;
+            const interval = setInterval(() => {
+                document.body.innerHTML += text[index];
+                index++;
+                if (index === text.length) {
+                    clearInterval(interval);
+                }
+            }, 200);
+        }
+        // Call the function when the page loads
+        window.onload = typeHelloWorld;
+    </script>
+    <h1>Welcome to my GitHub Pages Site</h1>
+    <p>This is my personal website created with GitHub Pages.</p>
+    <a href="another-page.html">Go to Another Page</a>
+</body>
+</html>
