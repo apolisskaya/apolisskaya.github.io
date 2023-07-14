@@ -12,16 +12,20 @@
             padding-top: 200px;
             font-size: 30px;
         }
+        a {
+            color: #b5e4b5;
+        }
     </style>
 </head>
 <body>
+    <h1></h1>
     <script>
-        // Function to type 'Hello World' on the screen
-        function typeHelloWorld() {
+        // Function to type 'Alla Spears' on the screen
+        function typeHello() {
             const text = 'Alla Spears';
             let index = 0;
             const interval = setInterval(() => {
-                document.body.innerHTML += text[index];
+                document.querySelector('h1').innerHTML += text[index];
                 index++;
                 if (index === text.length) {
                     clearInterval(interval);
@@ -29,10 +33,10 @@
             }, 200);
         }
         // Call the function when the page loads
-        window.onload = typeHelloWorld;
+        window.onload = typeHello;
     </script>
-    <h1>Welcome to my GitHub Pages Site</h1>
-    <p>This is my personal website created with GitHub Pages.</p>
+    <h2>Subheading</h2>
+    <p>This is a regular text paragraph.</p>
     <a href="another-page.html">Go to Another Page</a>
 </body>
 </html>
