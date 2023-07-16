@@ -62,3 +62,35 @@ a {
     padding: 10px;
     float: right; /* Align help section to the right */
 }
+
+.blinking-underscore {
+    animation: blink 1s step-end infinite;
+    visibility: hidden; /* Start with the cursor hidden */
+    color: #4EC9B0;
+    font-size: 30px; /* Adjust the font size as needed */
+    display: inline-block;
+    vertical-align: top; /* Ensure the cursor is aligned with the text */
+}
+
+@keyframes blink {
+    0%, 100% {
+        visibility: visible;
+    }
+    50% {
+        visibility: hidden;
+    }
+}
+
+.social-icons {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.social-icons a {
+    color: #b5e4b5;
+    text-decoration: none;
+    margin-left: 10px;
+}
