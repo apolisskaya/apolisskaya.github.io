@@ -14,7 +14,7 @@ function typeHello() {
             cursor.style.visibility = 'hidden'; // Hide the cursor after typing is completed
             icons.style.opacity = 1; // fade social icons into view
         }
-    }, 300);
+    }, 250);
 }
 
 window.onload = function () {

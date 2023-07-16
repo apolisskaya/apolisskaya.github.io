@@ -1,10 +1,11 @@
 body {
     background-color: #1E1E1E; /* Dark background similar to code editors */
     color: #D4D4D4; /* Light text color */
-    font-family: 'Courier New', monospace; /* Monospaced font */
+    font-family: 'Ubuntu', monospace;
     font-size: 16px; /* Adjustable font size */
     line-height: 1.5; /* Adjust line height for better readability */
     margin: 20px;
+    letter-spacing: 2px;
 }
 
 a {
