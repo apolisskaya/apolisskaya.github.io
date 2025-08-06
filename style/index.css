@@ -1,11 +1,19 @@
 body {
-    background-color: #1E1E1E; /* Dark background similar to code editors */
+    background-color: #0a0a0a;
     color: #D4D4D4; /* Light text color */
     font-family: 'Ubuntu', monospace;
     font-size: 16px; /* Adjustable font size */
     line-height: 1.5; /* Adjust line height for better readability */
     margin: 20px;
     letter-spacing: 2px;
+    background-image: linear-gradient(#ff00ff22 1px, transparent 1px),
+                      linear-gradient(90deg, #00ffff22 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', monospace;
+    text-shadow: 0 0 5px #ff00ff, 0 0 10px #00ffff;
 }
 
 a {
@@ -15,14 +23,43 @@ a {
 #terminal {
     width: 90%;
     height: 400px;
-    background-color: #282C34; /* Darker background for terminal area */
+    background-color: rgba(20, 20, 20, 0.9); /* Darker background for terminal area */
     border-radius: 5px;
     overflow-y: auto;
     padding: 10px;
     float: left;
     word-wrap: break-word;
     max-width: 900px;
+    border: 1px solid #00ffff55;
+    box-shadow: 0 0 10px #00ffff55;
+    position: relative;
+    padding-top: 45px;
 }
+
+#window-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background: #1a1a1a;
+    border-bottom: 1px solid #333;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 8px;
+}
+
+#window-bar .circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+#window-bar .red { background: #ff5f56; }
+#window-bar .yellow { background: #ffbd2e; }
+#window-bar .green { background: #27c93f; }
 
 #output {
     height: 80%;
@@ -38,7 +75,7 @@ a {
 }
 
 #prompt {
-    color: #9CDCFE; /* Light blue for the prompt symbol */
+    color: #ff00ff; /* Neon pink for the prompt symbol */
     margin-right: 5px;
     line-height: 30px;
 }
@@ -83,4 +120,19 @@ a {
     color: #b5e4b5;
     text-decoration: none;
     margin-left: 10px;
+}
+
+.duck-icon {
+    margin-left: 10px;
+    color: #ffeb3b;
+    text-shadow: 0 0 5px #ffeb3b;
+}
+
+#duck-debugger {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    color: #ffeb3b;
+    text-shadow: 0 0 5px #ffeb3b;
 }
