@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Alla Spears</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="style/index.css">
 </head>
@@ -16,16 +17,23 @@
             <a href="https://www.linkedin.com/in/alla-spears-05536a99/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/apolisskaya" target="_blank"><i class="fab fa-github"></i></a>
         </span>
+        <span class="duck-icon"><i class="fas fa-duck"></i></span>
     </h1>
     <p>Welcome.</p>
 
     <div id="terminal">
+        <div id="window-bar">
+            <span class="circle red"></span>
+            <span class="circle yellow"></span>
+            <span class="circle green"></span>
+        </div>
         <div id="output"></div>
         <div id="input-line">
             <span id="prompt">></span>
             <input type="text" id="command-input" autofocus />
         </div>
     </div>
+    <div id="duck-debugger"><i class="fas fa-duck"></i></div>
 
     <script src="scripts/hello.js"></script>
     <script src="scripts/terminal.js"></script>
